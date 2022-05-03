@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5905f47-88f1-47ae-b4a7-57ef39a5f124" name="Changes" comment="" />
+    <list default="true" id="f5905f47-88f1-47ae-b4a7-57ef39a5f124" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-control-flow-solution/src/main/java/org/example/day4/_1_warmup/WarmupExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs-control-flow-solution/src/main/java/org/example/day4/_1_warmup/WarmupExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-control-flow-todo/src/main/java/org/example/day4/_1_warmup/WarmupExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs-control-flow-todo/src/main/java/org/example/day4/_1_warmup/WarmupExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-control-flow-todo/src/main/java/org/example/day4/_2_controlflow/ControlFlowExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/labs-control-flow-todo/src/main/java/org/example/day4/_2_controlflow/ControlFlowExercises.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="28TIxa1D4mfrutYBBJ7hmPhYDwB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,7 +39,68 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ControlFlowExercisesTest$HangPaintings">
+    <configuration name="ControlFlowExercisesTest$GoOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labs-control-flow-todo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.day4._2_controlflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.day4._2_controlflow.ControlFlowExercisesTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.day4._2_controlflow.ControlFlowExercisesTest$GoOut" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlFlowExercisesTest$HangPaintings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labs-control-flow-todo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.day4._2_controlflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.day4._2_controlflow.ControlFlowExercisesTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.day4._2_controlflow.ControlFlowExercisesTest$HangPaintings" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlFlowExercisesTest$Sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labs-control-flow-todo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.day4._2_controlflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.day4._2_controlflow.ControlFlowExercisesTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.day4._2_controlflow.ControlFlowExercisesTest$Sum" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlFlowExercisesTest$Sum.sum_2_3_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labs-control-flow-todo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.day4._2_controlflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.day4._2_controlflow.ControlFlowExercisesTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.day4._2_controlflow.ControlFlowExercisesTest$Sum" />
+      <option name="METHOD_NAME" value="sum_2_3_4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -32,6 +112,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ControlFlowExercisesTest$HangPaintings" />
+        <item itemvalue="JUnit.ControlFlowExercisesTest$GoOut" />
+        <item itemvalue="JUnit.ControlFlowExercisesTest$Sum" />
+        <item itemvalue="JUnit.ControlFlowExercisesTest$Sum.sum_2_3_4" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,6 +130,36 @@
       <option name="presentableId" value="Default" />
       <updated>1651234396009</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1651235076454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651235076454</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1651235217421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651235217421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

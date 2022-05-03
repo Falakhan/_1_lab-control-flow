@@ -14,7 +14,16 @@ public class ControlFlowExercises {
         kidsRide(31, true)  -> false
      */
     boolean kidsRide(int temp, boolean isWinter) {
-
+        if (isWinter) {
+            if (10 <= temp && temp <= 30) {
+                return true;
+            }
+        }
+        if (!isWinter) {
+            if (15 <= temp && temp <= 30) {
+                return true;
+            }
+        }
         return false;
     }
 
@@ -33,8 +42,12 @@ public class ControlFlowExercises {
         find8(12, 0) -> false
      */
     boolean find8(int a, int b) {
+        if (a == 8 | b == 8) {
 
-        return false;
+            return true;
+        }
+        return ((a + b) == 8 || Math.abs(a - b) == 8 || (a * b) == 8);
+
     }
 
     /*
@@ -51,8 +64,24 @@ public class ControlFlowExercises {
         sum(5, 7, 3) -> 15
      */
     int sum(int a, int b, int c) {
+        if (a == b && a == c) {
+            return a;
+        }
 
-        return 0;
+        if (a == b) {
+            return (a + c);
+        }
+
+        if (a == c) {
+            return (a + b);
+        }
+
+        if (b == c) {
+            return (a + b);
+        }
+
+
+        return (a + b + c);
     }
 
     /*
@@ -68,8 +97,17 @@ public class ControlFlowExercises {
         goOut(true, false, false)  → false
      */
     boolean goOut(boolean isSunday, boolean isMom, boolean isPast20) {
+        if (isPast20) {
+            return false;
+        }
+        if (isSunday) {
+            if(isMom){
+                return true;
+            }
+            return false;
+        }
 
-        return false;
+        return true;
     }
 
     /*
@@ -87,7 +125,9 @@ public class ControlFlowExercises {
         hangPaintings(20, 0, 21) -> false
      */
     boolean hangPaintings(int small, int big, int length) {
-
+        if(small + (big*5) <= length){
+            return true;
+        }
         return false;
     }
 

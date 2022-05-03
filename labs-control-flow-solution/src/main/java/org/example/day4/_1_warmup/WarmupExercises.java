@@ -18,7 +18,10 @@ public class WarmupExercises {
             Use String API to check the equality.
 
         */
-        return  s1.equals(s2);
+        if(s1.equals(s2)){
+            return true;
+        }
+        return false;
     }
 
 }

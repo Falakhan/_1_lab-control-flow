@@ -9,7 +9,9 @@ public class WarmupExercises {
             TODO 1
             Implement the logic - method returns true if n1 > n2, false otherwise.
         */
-
+        if(n1 > n2) {
+            return true;
+        }
         return false;
     }
 
@@ -22,7 +24,10 @@ public class WarmupExercises {
 
         */
 
-        return  false;
+        if(s1.equals(s2)){
+            return true;
+        }
+        return false;
     }
 
 }
